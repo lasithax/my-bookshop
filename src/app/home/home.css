@@ -1,0 +1,11 @@
+.bookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.bookItem {
+    /* flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px); */
+    box-sizing: border-box;
+}

@@ -1,0 +1,61 @@
+.header {}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.headerTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #000;
+}
+
+.category {
+    margin-left: 10px; 
+    color: #4caf50;
+}
+
+.categoryButton {
+    margin-left: 15px; 
+    border: 1px solid #4caf50; 
+    color: #4caf50; 
+}
+
+.headerNavigationContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headerNavigationContainer Text {
+    margin: 0 10px; 
+    color: #000; 
+}
+
+.headerNavigationContainer .active {
+    font-weight: bold; 
+    color: #4caf50; 
+}
+
+.searchButton, .cartButton {
+    margin-left: 10px; 
+}
+
+.searchButton:hover, .cartButton:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4caf50; 
+    color: white; 
+}
